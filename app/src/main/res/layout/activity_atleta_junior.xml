@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtletaJuniorFragment">
+
+    <EditText
+        android:id="@+id/etNomeJ"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="13dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/nome"
+        app:layout_constraintBottom_toTopOf="@+id/etDataJ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCadastraJ"
+        android:layout_width="111dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="275dp"
+        android:text="@string/cadastra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAnosJ" />
+
+    <EditText
+        android:id="@+id/etAnosJ"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:hint="@string/anosTreino"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnCadastraJ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBairroJ" />
+
+    <EditText
+        android:id="@+id/etDataJ"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="13dp"
+        android:ems="10"
+        android:hint="@string/dataNasc"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/etBairroJ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeJ" />
+
+    <EditText
+        android:id="@+id/etBairroJ"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/bairro"
+        app:layout_constraintBottom_toTopOf="@+id/etAnosJ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDataJ" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cadastro de Atletas</string>
+    <string name="nome">Nome</string>
+    <string name="dataNasc">Data de Nascimento</string>
+    <string name="bairro">Bairro</string>
+    <string name="anosTreino">Anos de Prática</string>
+    <string name="cadastra">Cadastrar Atleta</string>
+    <string name="cardiaco">Atleta é Cardíaco</string>
+    <string name="academia">Academia que Compete</string>
+    <string name="record">Recorde da prova (segundos)</string>
+
+    <string name="act1">Atleta Júnior</string>
+    <string name="act2">Atleta Sênior</string>
+    <string name="act3">Atleta Outros</string>
+
+</resources>

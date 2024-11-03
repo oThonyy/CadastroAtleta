@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtletaOutroFragment">
+
+    <EditText
+        android:id="@+id/etNomeO"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/nome"
+        app:layout_constraintBottom_toTopOf="@+id/etDataO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCadastraO"
+        android:layout_width="111dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="264dp"
+        android:text="@string/cadastra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRecordO" />
+
+    <EditText
+        android:id="@+id/etBairroO"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/bairro"
+        app:layout_constraintBottom_toTopOf="@+id/etAcademiaO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDataO" />
+
+    <EditText
+        android:id="@+id/etRecordO"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/record"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnCadastraO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAcademiaO" />
+
+    <EditText
+        android:id="@+id/etAcademiaO"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/academia"
+        app:layout_constraintBottom_toTopOf="@+id/etRecordO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBairroO" />
+
+    <EditText
+        android:id="@+id/etDataO"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="@string/dataNasc"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/etBairroO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeO" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
